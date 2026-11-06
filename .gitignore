@@ -1,0 +1,31 @@
+# Virtual environments only
+.venv/
+venv/
+env/
+
+# Ignore Python cache files, but keep source and notebooks tracked
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Keep project files tracked
+!README.md
+!data/
+!data/**
+!EDA/
+!EDA/**/*.ipynb
+!**/*.py
+!**/*.ipynb
+!**/*.md
+!**/*.csv
+!**/*.json
+!**/*.yaml
+!**/*.yml
+
+# Keep outputs in repo
+!**/*.png
+!**/*.jpg
+!**/*.jpeg
+!**/*.svg
+!**/*.html
